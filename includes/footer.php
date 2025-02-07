@@ -1,3 +1,8 @@
+<footer>
+  <hr>
+  <p> Made with 💙 by <a href="https://github.com/anadaren">anadaren</a>
+</footer>
+
 <div id="toast"></div>
 <script src="js/mdb.min.js"></script>
 <script>

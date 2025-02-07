@@ -39,7 +39,11 @@ ob_start();
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
-        <h1 class="display-1">Post management</h1>
+        <svg viewBox="0 0 450 50">
+        <text y="50">Post Management</text>
+        </svg>
+
+        <div class="content-box">
         <table class="table table-striped table-hover">
          <tr>
             <th>Id</th>
@@ -68,6 +72,7 @@ ob_start();
 
 
         </table>
+        </div>
 
         <a href="posts_add.php"> Add new post</a>
        

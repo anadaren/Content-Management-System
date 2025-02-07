@@ -56,8 +56,11 @@ ob_start();
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <h1 class="display-1">Edit User</h1>
+        <svg viewBox="0 0 450 50">
+        <text y="50">Edit User</text>
+        </svg>
 
+            <div class="content-box">
             <form method="post">
                 <!-- Username input -->
                 <div class="form-outline mb-4">
@@ -89,6 +92,7 @@ ob_start();
                 <!-- Submit button -->
                 <button type="submit" class="btn btn-primary btn-block">Update User</button>
             </form>
+           </div>
 
         </div>
 

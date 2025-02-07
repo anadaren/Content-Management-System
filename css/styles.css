@@ -1,3 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=DynaPuff:wght@400..700&family=Rubik+Wet+Paint&display=swap');
+
+:root {
+    --blue-light: #ccf2ff;
+    --blue-main: #3093df;
+}
+
+body {
+    background-color: var(--blue-light);
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 700;
+}
+
+svg {
+    font-size: 70px;
+    width: 100%;
+    height: 120px;
+}
+
+nav svg {
+    width: auto;
+    height: 50px;
+}
+
+nav a {
+    color: var(--blue);
+}
+  
+text {
+    fill: white;
+    stroke: var(--blue-main);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+}
+
+.content-box {
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 10px 10px var(--blue-main);
+    outline: 3px solid var(--blue-main);
+    padding: 20px;
+}
+
+.form-outline {
+    background-color: var(--blue-light);
+    border-radius: 50px;
+}
+
+.form-select {
+    border-radius: 50px;
+}
+
+.btm-text {
+    margin: 15px 0;
+}
+
+#login-btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.floating-button {
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 10px 10px var(--blue-main);
+    outline: 3px solid var(--blue-main);
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.floating-button:hover {
+    background-color: var(--blue-light);
+    color: white;
+}
+
+#new-post-btn {
+    margin: 50px 0;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Toast Notifications */
 #toast {
     visibility: hidden;
     width: 100%;
@@ -79,3 +165,4 @@
     border: 1px solid #e6d0be;
     border-left: 5px solid #d06421;
   }
+/* Toast Notifications End */

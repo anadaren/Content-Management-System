@@ -4,7 +4,6 @@ ob_start();
     include('includes/config.php');
     include('includes/database.php');
     include('includes/functions.php');
-    secure();
 
     include('includes/header.php');
 
@@ -18,7 +17,7 @@ ob_start();
     
             set_message("A new user " . $_SESSION['username'] . " has beed added");
             $stm->close();
-            header('Location: users.php');
+            header('Location: dashboard.php');
             ob_end_flush(); // Ends output buffering
             die();
     
@@ -34,7 +33,7 @@ ob_start();
     <div class="row justify-content-center">
         <div class="col-md-6">
         <svg viewBox="0 0 450 50">
-        <text y="50">Add User</text>
+        <text y="50">Sign Up</text>
         </svg>
 
             <div class="content-box">
@@ -67,10 +66,10 @@ ob_start();
    
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block">Add User</button>
+                <button type="submit" class="btn btn-primary btn-block">Create Account</button>
             </form>
             </div>
-
+            <p class="btm-text">Already a user? <a href="index.php">Log In.</a></p>
         </div>
 
     </div>
