@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "mdb-cli": "^4.3.3"
+  }
+}
